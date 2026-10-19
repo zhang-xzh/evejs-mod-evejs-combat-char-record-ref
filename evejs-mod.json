@@ -1,11 +1,11 @@
 {
   "author": {
-    "id": "au-mva40uiw90kt",
-    "keyId": "01ed0fb1c32c",
+    "id": "au-mvf2lwpltupu",
+    "keyId": "020ed1eebd16",
     "name": "HRSKNK"
   },
   "category": "玩法",
-  "changelog": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
+  "changelog": "支持EveJS-261018.1",
   "conflicts": [],
   "delisted": false,
   "description": "战斗时频繁整份复制角色数据，人一多就卡。修复后不再多余复制。",
@@ -14,24 +14,25 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref/releases/download/v1.0.0/evejs-combat-char-record-ref-1.0.0.zip"
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref/releases/download/v1.0.1/evejs-combat-char-record-ref-1.0.1.zip"
     }
   ],
   "evejsVersions": [
-    "0.12.9"
+    "0.12.9",
+    "261018.x"
   ],
   "featured": false,
   "highlights": [],
   "history": [],
   "id": "evejs-combat-char-record-ref",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-19",
   "readme": [
     "战斗热路径每次读取角色记录都整份克隆，大规模战斗时造成卡顿。补丁改为按引用只读（不克隆），避免重复拷贝，行为不变。"
   ],
   "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
   "requiresRestart": true,
-  "sha256": "7f94c6eed5e55beb147aa23a60fcdaee3399f8f0af016c593c276f5f8a65dbaf",
-  "sizeBytes": 6200,
+  "sha256": "e5948602206f182639c755ba570c00b7977a7e9025f77bfbae83a45c0af24a8a",
+  "sizeBytes": 6095,
   "tags": [],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
